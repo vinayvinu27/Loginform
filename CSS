@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body
+{
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+form {
+  margin-top: 5rem auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  background-color: #fff;
+  padding: 4vw 4vw 2vw 4vw;
+  width: 50%;
+  max-width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.t-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+label {
+  font-size: 18px;
+}
+form input {
+  border: none;
+  outline: none;
+}
+.inputDiv input
+{
+    outline: none;
+    border: none;
+}
+.forget p
+{
+    font-size: small;
+    float: right;
+}
+.Btn
+{
+    padding: 5px;
+    width: 20vw;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.Btn:hover
+{
+  color: rgb(244, 231, 231);
+  background-color: rgb(110, 225, 228);
+  border: 1px solid black;
+  transform: all 1s ease;
+}
+.forgetbottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forgetbottom p{
+    font-size: small;
+}
+.flexul
+{
+    margin-bottom: 20px;
+}
+.flexul li
+{
+    display: inline-block;
+    padding: 20px 20px;
+    justify-content: center;
+}
+
